@@ -1,4 +1,6 @@
 import './App.css';
+import './styled.ts'
+import * as S from './styled.ts'
 
 function App() {
   return (
@@ -36,18 +38,18 @@ function App() {
       <aside>
         <div class="side_ui">
           <div class="cartegory">
-            <div class="card"><img class="home" src="home.png" /><p>홈</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>탐색</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>Shorts</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>구독</p></div>
+            <S.Test><img class="home" src="home.png" /><S.Text>홈</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>탐색</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>Shorts</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>구독</S.Text></S.Test>
           </div>
           <div class="cartegory">
-            <div class="card"><img class="home" src="home.png" /><p>보관함</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>시청기록</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>내 동영상</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>나중에 볼 동영상</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>좋아요 표시한 동영상</p></div>
-            <div class="card"><img class="home" src="home.png" /><p>재생목록</p></div>
+            <S.Test><img class="home" src="home.png" /><S.Text>보관함</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>시청기록</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>내 동영상</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>나중에 볼 동영상</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>좋아요 표시한 동영상</S.Text></S.Test>
+            <S.Test><img class="home" src="home.png" /><S.Text>재생목록</S.Text></S.Test>
           </div>
           <div class="cartegory">
             <p class="subscribe">구독</p>
@@ -75,12 +77,15 @@ function App() {
             <div class="card"><img class="home" src="home.png" /><p>의견 보내기</p></div>
           </div>
           <div class="cartegory">
-            <p>정보 보도자료 저작권 문의하기 크리에이터광고 개발자 약관 개인정보처리방침정책 및 안전 YouTube 작동의 원리 새로운 기능 테스트하기</p>
-            <p>© 2022 Google LLC</p>
-            <p>CEO: 선다 피차이</p>
-            <p>주소: 1600 Amphitheatre Parkway,</p>
-            <p>Mountain View, CA 94043, USA.</p>
-            <p>전화: 080-822-1450(무료)</p>
+            <p> 대충 쓸모없는 글자들</p>
+            <p> 대충 쓸모없는 글자들</p>
+            <p> 대충 쓸모없는 글자들</p>
+            <p> 대충 쓸모없는 글자들</p>
+            <p> © 2022 Google LLC</p>
+            <p> CEO: 선다 피차이</p>
+            <p> 주소: 1600 Amphitheatre Parkway,</p>
+            <p> Mountain View, CA 94043, USA.</p>
+            <p> 전화: 080-822-1450(무료)</p>
           </div>
         </div>
       </aside>
