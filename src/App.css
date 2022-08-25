@@ -101,19 +101,9 @@
 .cartegory > p{
   font-size: 12px;
 }
-.card{
-  height: 40px;
-}
 .home{
   width:25px;
   margin: 7.5px 20px 7.5px 20px;
-  float: left;
-}
-.card > p{
-  font-size: 14px;
-  height: 40px;
-  line-height: 40px;
-  margin: 0px;
   float: left;
 }
 .subscribe{
