@@ -104,6 +104,10 @@ export const cartegory = styled.div`
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid;
 `;
+export const CG_font = styled.p`
+    margin: 5px 20px 5px 20px;
+    font-size: 14px;
+`;
 
 export const Card = styled.div`
 height: 40px;
