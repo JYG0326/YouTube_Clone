@@ -1,0 +1,12 @@
+.show-menu{
+    z-index: 1;
+}
+.hide-menu{
+    z-index: -1;
+    opacity: 0;
+}
+aside{
+    position: absolute;
+    top: 61px;
+    left: 0px;
+}
