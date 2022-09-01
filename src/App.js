@@ -86,12 +86,13 @@ function App() {
         </aside>
         <aside className={isOpen ? "hide-menu" : "show-menu"}>
             <S.side_short>
-                <S.cartegory>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /></S.Card>
-                </S.cartegory>
+                <S.cartegory_c>
+                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>홈</S.CardText_c></S.Card>
+                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>탐색</S.CardText_c></S.Card>
+                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>Shorts</S.CardText_c></S.Card>
+                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>구독</S.CardText_c></S.Card>
+                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>보관함</S.CardText_c></S.Card>
+                </S.cartegory_c>
             </S.side_short>
         </aside>
       </header>
