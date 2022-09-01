@@ -89,7 +89,7 @@ export const filterbtn = styled.button`
 /*좌측 사이드바*/
 export const side_long = styled.div`
     width: 232.5px;
-    height: calc(100vh - 72px);
+    height: calc(100vh - 61px);
     padding-right: 7.5px;
     box-sizing: border-box;
     overflow-y: scroll;
@@ -102,24 +102,20 @@ export const side_long = styled.div`
     };
 `;
 export const side_short = styled.div`
-    width: 232.5px;
-    height: calc(100vh - 72px);
-    padding-right: 7.5px;
+    width: 70px;
+    height: calc(100vh - 61px);
+    border-right: 1px solid;
     box-sizing: border-box;
-    overflow-y: scroll;
-    &:-webkit-scrollbar{
-        width: 10px;
-    };
-    &:-webkit-scrollbar-thumb{
-        background-color: #D3d3d3;
-        border-radius: 5px;
-    };
 `;
 
 export const cartegory = styled.div`
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid;
 `;
+
+export const cartegory_c = styled.div`
+`;
+
 export const CG_font = styled.p`
     margin: 5px 20px 5px 20px;
     font-size: 14px;
@@ -141,4 +137,8 @@ height: 40px;
 line-height: 40px;
 margin: 0px;
 float: left;
+`;
+export const CardText_c = styled.p` 
+    text-align: center;
+    margin: 20px 0px 0px 0px;
 `;
