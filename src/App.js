@@ -21,7 +21,6 @@ function App() {
           </S.searchbox>
           <S.usermenu>
             <S.make src="make.png" />
-            <S.menu src="menu.png" />
             <S.alarm src="alarm.png" />
             <S.icon src="icon.jpg" />
           </S.usermenu>
@@ -96,6 +95,9 @@ function App() {
             </S.side_short>
         </aside>
       </header>
+      <section className='main'>
+
+      </section>
     </div>
   );
 }

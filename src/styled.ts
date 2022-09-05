@@ -48,23 +48,18 @@ export const usermenu = styled.div`
 `;
 
 export const make = styled.img`
-    margin: 0px 5px 25px 0px;
-`;
-
-export const menu = styled.img`
-    width:30px;
-    margin: 10px 10px 35px 10px;
+    margin: 5px 10px 30px 0px;
 `;
 
 export const alarm = styled.img`
     width:30px;
-    margin: 10px 10px 35px 10px;
+    margin: 10px 20px 40px 0px;
 `;
 
 export const icon = styled.img`
     width:35px;
     border-radius: 100px;
-    margin:15px 30px 35px 10px;
+    margin: 10px 40px 37px 10px;
 `;
 
 /*상단 필터 사이드바*/
