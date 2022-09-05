@@ -69,7 +69,9 @@ export const icon = styled.img`
 
 /*상단 필터 사이드바*/
 export const sub_ui = styled.div`
-    width: calc(100% - 240px);
+    max-width: calc(100% - 70px);
+    width: 100%;
+    min-width: calc(100% - 240px);
     display: flex;
     justify-content: center;
     height:50px;
@@ -138,7 +140,9 @@ line-height: 40px;
 margin: 0px;
 float: left;
 `;
+
 export const CardText_c = styled.p` 
     text-align: center;
-    margin: 20px 0px 0px 0px;
+    font-size: 11px;
+    margin: 0px 0px 0px 0px;
 `;
