@@ -122,6 +122,11 @@ export const Card = styled.div`
     height: 40px;
 `;
 
+export const Card_c = styled.div`
+    height: 40px;
+    padding: 15px 0px 15px 0px;
+`;
+
 export const H_img = styled.img`
     width:25px;
     margin: 7.5px 20px 7.5px 20px;
