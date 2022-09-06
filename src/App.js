@@ -86,11 +86,11 @@ function App() {
         <aside className={isOpen ? "hide-menu" : "show-menu"}>
             <S.side_short>
                 <S.cartegory_c>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>홈</S.CardText_c></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>탐색</S.CardText_c></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>Shorts</S.CardText_c></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>구독</S.CardText_c></S.Card>
-                    <S.Card><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>보관함</S.CardText_c></S.Card>
+                    <S.Card_c><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>홈</S.CardText_c></S.Card_c>
+                    <S.Card_c><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>탐색</S.CardText_c></S.Card_c>
+                    <S.Card_c><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>Shorts</S.CardText_c></S.Card_c>
+                    <S.Card_c><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>구독</S.CardText_c></S.Card_c>
+                    <S.Card_c><S.H_img src="home.png" alt="Icon_Home" /><S.CardText_c>보관함</S.CardText_c></S.Card_c>
                 </S.cartegory_c>
             </S.side_short>
         </aside>
